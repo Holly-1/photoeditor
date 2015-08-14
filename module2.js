@@ -162,8 +162,8 @@ function green(img) {
 
 function greenPixel(colour) {
 
-    var modifiedRed = colour.red * 0.1 + colour.green * 0.65 + colour.blue * 0.35
-    var modifiedGreen = colour.red * 0.2 + colour.green * 0.65 + colour.blue * 0.65
+    var modifiedRed = colour.red * 0.1 + colour.green * 0.6 + colour.blue * 0.35
+    var modifiedGreen = colour.red * 0.18 + colour.green * 0.62 + colour.blue * 0.62
     var modifiedBlue = colour.red * 0.18 + colour.green * 0.62 + colour.blue * 0.42
 
     return new RGBA(modifiedRed, modifiedGreen, modifiedBlue, colour.alpha);
